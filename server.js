@@ -10,7 +10,10 @@ const app = express()
 
 // Middleware
 app.use(cors({
-  origin: 'https://workout-app-frontend-inqeezf4c-bryan-elmers-projects.vercel.app' // Allow only your frontend domain
+  origin: 'https://workout-app-frontend-psi.vercel.app', // Allow your frontend domain
+  methods: 'GET,PATCH,POST,DELETE',
+  credentials: true, // Include credentials like cookies in CORS requests
+  optionsSuccessStatus: 204 // For legacy browser support
 }));
 app.use(express.json())
 
