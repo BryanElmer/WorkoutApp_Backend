@@ -9,7 +9,9 @@ const userRoutes = require('./routes/user')
 const app = express()
 
 // Middleware
-app.use(cors())
+app.use(cors({
+  origin: 'https://workout-app-frontend-inqeezf4c-bryan-elmers-projects.vercel.app' // Allow only your frontend domain
+}));
 app.use(express.json())
 
 app.use((req, res, next) => {
