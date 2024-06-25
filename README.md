@@ -9,7 +9,6 @@ This is the backend service for the Workout App, responsible for handling connec
 - [Environment Variables](#environment-variables)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -112,6 +111,3 @@ Follow the prompts to complete the deployment.
 5. Push to the branch (`git push origin feature-branch`).
 6. Open a Pull Request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
